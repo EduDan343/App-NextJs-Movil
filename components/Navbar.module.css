@@ -1,0 +1,53 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    height: 2.5rem;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    border: 1px solid aliceblue;
+}
+.Navbar h2{
+    margin-left: 1rem;
+    color: aliceblue;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: transparent;
+    align-items: center;
+    width: 45vw;
+    margin-right: 1rem;
+}
+
+.search input {
+    height: 1.3rem;
+    width: 25vw;
+    text-align: center;
+    border-color: transparent;
+}
+
+.search .icon {
+    /* width: 2rem; */
+    font-size: 1.5rem;
+    background-color: transparent;
+    height: 1.6rem;
+    color: aliceblue;
+    /* margin-left: 10px; */
+}
+
+.search button {
+    height: 1.5rem;
+}
+
+.search .icon2 {
+    /* width: 2rem; */
+    font-size: 1.7rem;
+    margin-left: 3vw;
+    color: aliceblue;
+}
